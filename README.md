@@ -5,8 +5,10 @@ An interactive, step-by-step visualiser for binary search boundary queries on a
 directly on the array, alongside the predicate being evaluated, the branch
 taken, the executing C++ line, and a running trace table.
 
+**Live: https://tharshikan.github.io/binary-search-visualizer/**
+
 Single self-contained HTML file. No build step, no dependencies — open
-`binary_search_visualizer.html` in a browser.
+`binary_search_visualizer.html` in a browser, or use the link above.
 
 ## What it covers
 
