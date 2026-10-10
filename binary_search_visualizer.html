@@ -52,6 +52,8 @@
 }
 
 *{box-sizing:border-box}
+/* an author display rule outranks the UA's [hidden]{display:none}; keep hidden hidden */
+[hidden]{display:none !important}
 body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:var(--sans); font-size:15px; line-height:1.5;
